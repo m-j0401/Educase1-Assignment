@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#landing {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+  padding: 20px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content h1 {
+  
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 18px;
+  color: #777;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.accnt-btn,
+.login-btn {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.accnt-btn {
+  background: #6c2cf1;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.accnt-btn:hover {
+  background: #5c22d6;
+}
+
+.login-btn {
+  background: #d9c6ff;
+  color: #222;
+}
+
+.login-btn:hover {
+  background: #cdb5ff;
+}
+
+
+
+
+
+
+
+
+
+
+.login-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 30px 15px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-container h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.login-container p {
+  color: #7a7a7a;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  background: #f5f5f5;
+  padding: 0 6px;
+  color: #7c3aed;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+}
+
+.input-group input::placeholder {
+  color: #9c9c9c;
+}
+
+
+
+
+
+.signup-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f8f9;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-card {
+  width: 375px;
+  min-height: 100vh;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.signup-card h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d2226;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 4px;
+  color: #6c25ff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #1d2226;
+}
+
+.agency-section {
+  margin-top: 10px;
+}
+
+.agency-section p {
+  font-size: 14px;
+  color: #1d2226;
+  margin-bottom: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 25px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #1d2226;
+  cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+  accent-color: #6c25ff;
+  width: 18px;
+  height: 18px;
+}
+
+.create-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  background: #6c25ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
