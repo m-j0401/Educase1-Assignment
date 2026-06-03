@@ -9,7 +9,7 @@ import { nameContext } from "../Context/nameContext";
 
 const Profile=()=>{
 
-let{email}=useContext(nameContext)
+let{name}=useContext(nameContext)
     return(
         <div>
      <header>
@@ -18,7 +18,7 @@ let{email}=useContext(nameContext)
      <div>
    <img src={image} alt="user profile"/>
    <h3>Name</h3>
-   <p>{email}</p>
+   <p>{name}</p>
 
 
      </div>

@@ -6,7 +6,7 @@ import { nameContext } from "../Context/nameContext";
 
 
 const SignUp=()=>{
-    let{setEmail}=useContext(nameContext)
+    let{setName}=useContext(nameContext)
     let navi=useNavigate()
     let signup_data={
         name:useRef(),
@@ -23,7 +23,7 @@ let{name,phoneNum,email,pass}=signup_data;
     alert("All * fields required!")
     return;
    }
-   setEmail(email.current.value)
+   setName(email.current.value)
    navi("/profile")
    }
  

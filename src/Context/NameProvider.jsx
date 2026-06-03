@@ -6,11 +6,11 @@ import { nameContext } from "./nameContext";
 
 
 const NameProvider=({children})=>{
-  let{email,setEmail}=useState();
+  let[name,setName]=useState('');
     return(
         <nameContext.Provider value = {{
-           email:email,
-           setEmail:setEmail
+           name:name,
+           setName:setName
         }}>
       {children}
 

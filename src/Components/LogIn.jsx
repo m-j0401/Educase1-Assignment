@@ -7,7 +7,7 @@ import { nameContext } from "../Context/nameContext";
 
 
 const LogIn=()=>{
-     let{setEmail}=useContext(nameContext)
+     let{name,setName}=useContext(nameContext)
     let navi=useNavigate();
     let dataa={
         email:useRef(),
@@ -23,7 +23,7 @@ function handleSubmit(e)
         alert("Enter All value");
         return;
     }
-    setEmail(email.current.value)
+    setName(email.current.value)
 
   navi("/profile");
 }
